@@ -1,6 +1,16 @@
-pull-left {
+.pull-left {
     float: left;
 }
-navbar-toggler {
-    float: right
+.nav-item {
+    background-color: rgb(66, 179, 179);
+    border: 1px solid rgb(166, 44, 44);
+}
+h1, h2 {
+    text-align: center;
+}
+p {
+    height: 1000px;
+}
+#abdomen {
+    background-color: blanchedalmond;
 }
