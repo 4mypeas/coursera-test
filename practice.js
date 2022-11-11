@@ -309,3 +309,4 @@ function manager() {
     managerStaff.doSomethingFun()
     return managerStaff
 }
+
