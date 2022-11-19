@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+header img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+}
+
+header {
+    padding-bottom: 2rem;
+}
+
+#jumbotron {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+nav > ul {
+    display: flex;
+    margin-bottom: 1rem;
+    list-style: none;
+    gap: 2rem;
+    font-size: 15px;
+    justify-content: space-between;
+    padding-left: 0;
+    border-top: 1px solid #6400FF;
+    border-bottom: 1px solid #6400FF;
+    padding: 1px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+section {
+    display: flex;
+}
+
+section article {
+    flex: 1;
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+    margin: 2rem;
+}
+footer img{
+    width: 50%;
+}
+.article_image {
+    width: 100%;
+}
+
+.subpar {
+    border-width: 2px;
+    border-style: groove;
+    border-color: #EBCFFA;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+    background-color: rgb(190, 187, 163);
+}
+#main_image {
+    background-image: url(./img/cuban_chains.webp);
+
+    color: white;
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
