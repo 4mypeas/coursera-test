@@ -26,8 +26,8 @@ nav > ul {
     font-size: 15px;
     justify-content: space-between;
     padding-left: 0;
-    border-top: 1px solid #6400FF;
-    border-bottom: 1px solid #6400FF;
+    border-top: 1px solid #6600ff4e;
+    border-bottom: 1px solid #6600ff4e;
     padding: 1px;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -65,17 +65,17 @@ footer img{
 .subpar {
     border-width: 2px;
     border-style: groove;
-    border-color: #EBCFFA;
+    border-color: #ddc5e922;
     border-radius: 1rem;
     overflow: hidden;
     padding: 1rem;
-    background-color: #6400FF;
+    background-color: #4f495855;
     color: white;
 }
 #main_image {
     background-image: url(./img/cuban_chains.webp);
 
-    color: white;
+    color: rgba(146, 132, 150, 0.486);
     background-size: 100%;
     background-blend-mode: darken;
     margin: 0 auto;
@@ -83,7 +83,7 @@ footer img{
 
 button {
     border-radius: 3px;
-    background-color: rgb(83, 83, 203);
+    background-color: rgb(180, 180, 201);
 }
 
 button:hover {
