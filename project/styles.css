@@ -45,6 +45,7 @@ section article {
 
 h1 {
     font-size: 3rem;
+    text-align: center;
 }
 
 footer {
@@ -68,7 +69,8 @@ footer img{
     border-radius: 1rem;
     overflow: hidden;
     padding: 1rem;
-    background-color: rgb(190, 187, 163);
+    background-color: #6400FF;
+    color: white;
 }
 #main_image {
     background-image: url(./img/cuban_chains.webp);
@@ -76,9 +78,27 @@ footer img{
     color: white;
     background-size: 100%;
     background-blend-mode: darken;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 3px;
+    background-color: rgb(83, 83, 203);
+}
+
+button:hover {
+    transform: rotatey(360deg);
+    transition: 2s linear;
+}
+
+
+h1 + p {
+   text-align: center;
+   padding-bottom: 2rem;
 }
 
 a {
     text-decoration: none;
     color: black;
+
 }
